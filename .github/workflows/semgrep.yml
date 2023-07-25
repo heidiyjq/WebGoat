@@ -22,5 +22,5 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - run: semgrep ci
-    - env:
+      env:
         SEMGREP_RULES: p/java # more at semgrep.dev/explore
